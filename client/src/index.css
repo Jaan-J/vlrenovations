@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(210, 21%, 24%);
+  --card: hsl(210, 25%, 98%);
+  --card-foreground: hsl(210, 21%, 24%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(210, 21%, 24%);
+  --primary: hsl(20, 90%, 48%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(210, 21%, 24%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --muted: hsl(210, 25%, 98%);
+  --muted-foreground: hsl(210, 21%, 24%);
+  --accent: hsl(210, 25%, 98%);
+  --accent-foreground: hsl(20, 90%, 48%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(210, 25%, 90%);
+  --input: hsl(210, 25%, 98%);
+  --ring: hsl(20, 90%, 48%);
+  --radius: 0.75rem;
+  --charcoal: hsl(210, 21%, 24%);
+  --deep-orange: hsl(20, 90%, 48%);
+  --light-gray: hsl(210, 25%, 98%);
+}
+
+.dark {
+  --background: hsl(210, 21%, 24%);
+  --foreground: hsl(0, 0%, 100%);
+  --card: hsl(210, 21%, 20%);
+  --card-foreground: hsl(0, 0%, 100%);
+  --popover: hsl(210, 21%, 24%);
+  --popover-foreground: hsl(0, 0%, 100%);
+  --primary: hsl(20, 90%, 48%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(210, 21%, 20%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --muted: hsl(210, 21%, 20%);
+  --muted-foreground: hsl(210, 10%, 70%);
+  --accent: hsl(210, 21%, 20%);
+  --accent-foreground: hsl(20, 90%, 48%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(210, 21%, 30%);
+  --input: hsl(210, 21%, 20%);
+  --ring: hsl(20, 90%, 48%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+
+  .hero-bg {
+    background-image: linear-gradient(rgba(45, 55, 72, 0.8), rgba(45, 55, 72, 0.8)), 
+                      url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@layer utilities {
+  .text-charcoal {
+    color: var(--charcoal);
+  }
+  
+  .bg-charcoal {
+    background-color: var(--charcoal);
+  }
+  
+  .text-deep-orange {
+    color: var(--deep-orange);
+  }
+  
+  .bg-deep-orange {
+    background-color: var(--deep-orange);
+  }
+  
+  .bg-light-gray {
+    background-color: var(--light-gray);
+  }
+  
+  .hover\:bg-orange-600:hover {
+    background-color: hsl(20, 90%, 45%);
+  }
+}
