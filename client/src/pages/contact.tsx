@@ -74,7 +74,7 @@ export default function Contact() {
       toast({
         title: "Message Sent!",
         description:
-          "Thank you for your inquiry! We'll get back to you within 2 hours.",
+          "Thank you for your inquiry! We'll get back to you soon.",
       });
       form.reset();
     },
@@ -351,10 +351,10 @@ export default function Contact() {
                     <div>
                       <div className="font-semibold">Email</div>
                       <a
-                        href="mailto:info@vlrenovation.ca"
+                        href="mailto:vincentliu4129@gmail.com"
                         className="text-deep-orange hover:text-orange-300 transition-colors"
                       >
-                        747988758@qq.com
+                        vincentliu4129@gmail.com
                       </a>
                     </div>
                   </div>
@@ -406,14 +406,17 @@ export default function Contact() {
                   Call Emergency Line
                 </a>
               </div>
-
-              {/* Google Maps Placeholder */}
-              <div className="bg-gray-200 rounded-xl h-64 flex items-center justify-center">
-                <div className="text-center text-gray-600">
-                  <i className="fas fa-map text-3xl mb-2"></i>
-                  <div className="font-semibold">Interactive Map</div>
-                  <div className="text-sm">Serving Mississauga & GTA</div>
-                </div>
+              {/* Google Maps Embed */}
+              <div className="overflow-hidden rounded-xl h-64 lg:h-80">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28893.09346653049!2d-79.642586!3d43.592968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b472dbb030dab%3A0x5037b28c72310a0!2sSquare+One+Shopping+Centre!5e0!3m2!1sen!2sca!4v0000000000000!5m2!1sen!2sca"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
           </div>

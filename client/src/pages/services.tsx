@@ -67,8 +67,8 @@ export default function Services() {
         "postalCode": "L5B 1M1",
         "addressCountry": "CA"
       },
-      "telephone": "+1-905-555-0123",
-      "email": "info@vlrenovation.ca",
+      "telephone": "+1-647-891-8810",
+      "email": "vincentliu4129@gmail.com",
       "url": "https://www.vlrenovation.ca"
     },
     "areaServed": [

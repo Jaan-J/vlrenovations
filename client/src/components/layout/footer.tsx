@@ -13,20 +13,6 @@ export default function Footer() {
             <p className="text-gray-300 mb-6 max-w-md">
               Mississauga's trusted renovation professionals. Transforming homes with quality craftsmanship and exceptional service since 2014.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-deep-orange rounded-full flex items-center justify-center hover:bg-orange-600 transition-colors">
-                <i className="fab fa-facebook-f text-white"></i>
-              </a>
-              <a href="#" className="w-10 h-10 bg-deep-orange rounded-full flex items-center justify-center hover:bg-orange-600 transition-colors">
-                <i className="fab fa-instagram text-white"></i>
-              </a>
-              <a href="#" className="w-10 h-10 bg-deep-orange rounded-full flex items-center justify-center hover:bg-orange-600 transition-colors">
-                <i className="fab fa-linkedin-in text-white"></i>
-              </a>
-              <a href="#" className="w-10 h-10 bg-deep-orange rounded-full flex items-center justify-center hover:bg-orange-600 transition-colors">
-                <i className="fab fa-google text-white"></i>
-              </a>
-            </div>
           </div>
           
           {/* Quick Links */}
@@ -51,8 +37,8 @@ export default function Footer() {
                 </a>
               </div>
               <div>
-                <a href="mailto:747988758@qq.com" className="hover:text-deep-orange transition-colors">
-                  747988758@qq.com
+                <a href="mailto:vincentliu4129@gmail.com" className="hover:text-deep-orange transition-colors">
+                  vincentliu4129@gmail.com
                 </a>
               </div>
             </div>
@@ -67,7 +53,6 @@ export default function Footer() {
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-300 hover:text-deep-orange transition-colors">Privacy Policy</a>
               <a href="#" className="text-gray-300 hover:text-deep-orange transition-colors">Terms of Service</a>
-              <a href="#" className="text-gray-300 hover:text-deep-orange transition-colors">Warranty</a>
             </div>
           </div>
         </div>
