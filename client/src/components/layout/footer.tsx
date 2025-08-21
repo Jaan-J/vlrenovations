@@ -51,7 +51,7 @@ export default function Footer() {
               © 2025 VL Renovation. All rights reserved.
             </div>
             <div>
-              Made by <a href="https://yoururls.ca" target="_blank" rel="noopener noreferrer" className="hover:text-deep-orange transition-colors">YourURLs.ca</a>
+              Made by <a href="https://yoururls.ca" target="_blank" rel="noopener noreferrer" className="hover:text-deep-orange transition-colors">YourURLs</a>
             </div>
           </div>
         </div>
