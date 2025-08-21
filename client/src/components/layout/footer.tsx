@@ -46,13 +46,12 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-700 mt-12 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-gray-300 text-sm mb-4 md:mb-0">
-              © 2024 VL Renovation. All rights reserved.
+          <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-300">
+            <div className="mb-2 md:mb-0">
+              © 2025 VL Renovation. All rights reserved.
             </div>
-            <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-gray-300 hover:text-deep-orange transition-colors">Privacy Policy</a>
-              <a href="#" className="text-gray-300 hover:text-deep-orange transition-colors">Terms of Service</a>
+            <div>
+              Made by <a href="https://yoururls.ca" target="_blank" rel="noopener noreferrer" className="hover:text-deep-orange transition-colors">YourURLs.ca</a>
             </div>
           </div>
         </div>
